@@ -22,7 +22,7 @@ main{
 }
 header{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-column: 2/3;
 }
 .sidebar{
@@ -61,7 +61,7 @@ a{
 }
 .searchbar{
     background-color: #e2e8f0;
-    height: 20px;
+    height: 30px;
     border: none;
     border-radius: 50px;
 }
@@ -73,11 +73,11 @@ a{
 .search-area{
     display: grid;
     grid-auto-flow: column;
-    align-content: center;
+    align-items: center;
     margin: 15px;
+    margin-left: 30px;
     margin-top: 5px;
-
-    gap: 25px;
+    gap: 15px;
     grid-template-columns: auto 1fr;
 }
 .user-setting-dashboard{
@@ -85,8 +85,47 @@ a{
     grid-auto-flow: column;
     margin: 15px;
     align-items: center;
+    gap: 15px;
     justify-content: center;
+}
+.name{
+    font-size: 1.3rem;
 }
 .user-setting-dashboard > *{
     margin: 5px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 15px;
+}
+.user-icon{
+    width: 50px;
+    height: 50px;  
+}
+.greeting{
+    font-size: 0.8rem;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.buttons > *{
+    background-color: #1992d4;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+
+}
+.buttons{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto;
+    grid-auto-columns: auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
