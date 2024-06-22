@@ -135,7 +135,7 @@ main{
     padding-top: 30px;
     padding-left: 10px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 5fr 2fr;
 }
 /* main> *{
     border: solid;
@@ -145,14 +145,17 @@ main{
 }
 .your-projects{
     grid-row: 1/3;
+    margin-left: 10px;
 }
 .your-project-grid{
     display: grid;
+    margin-top: 15px;
+    margin-right: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    gap: 15px;
+    gap: 20px;
 }
 .card{
-    width: 90px;
-    height: 120px;
-    background-color: #1992d4;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 5px;
 }
