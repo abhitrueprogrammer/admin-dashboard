@@ -155,7 +155,11 @@ main{
     gap: 20px;
 }
 .card{
-    height: 170px;
+    height: 160px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 7px;
+}
+.yellow-line{
+    border-inline: solid #fcb71b 7px;
+    border-inline-end: none;
 }
