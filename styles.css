@@ -129,3 +129,30 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+main{
+    background-color: #e1e7f0;
+    padding-top: 30px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+/* main> *{
+    border: solid;
+} */
+.announcements, .trending{
+    grid-column: 2/3;
+}
+.your-projects{
+    grid-row: 1/3;
+}
+.your-project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 15px;
+}
+.card{
+    width: 90px;
+    height: 120px;
+    background-color: #1992d4;
+}
