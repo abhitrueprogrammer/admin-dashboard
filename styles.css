@@ -50,18 +50,23 @@ nav{
     gap: 15px;
 }
 nav svg{
-
     height: 20px;
     width: 20px;
 }
-nav li{
+.branding svg{
+    height: 40px;
+    width: 40px;
+
+}
+nav li, .branding h2{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
     justify-content: flex-start;
     gap: 15px;
 }
-nav svg path{
+
+.sidebar svg path{
     fill: #fff;
 }
 nav li{
