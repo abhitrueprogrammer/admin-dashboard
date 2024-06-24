@@ -1,9 +1,83 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+ .bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
 *{
     margin: 0;
     box-sizing: border-box;
     font-size: 1rem;
 }
+body {
+    font-family:   "Roboto", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+  }
 h2{
     font-size: 1.3rem;
 }
@@ -71,7 +145,7 @@ nav li, .branding h2{
 }
 nav li{
     
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 nav ul{
 
@@ -97,6 +171,10 @@ a{
     width: 20px;
     height: 20px;
     display: inline;
+}
+.user-setting-dashboard svg{
+    width: 20px;
+    height: 20px;
 }
 .icon{
     width: 30px;
@@ -133,7 +211,7 @@ a{
     margin-left: 25px;
     gap: 15px;
 }
-.user-icon{
+.main-user-icon{
     width: 50px;
     height: 50px;  
 }
@@ -141,9 +219,7 @@ a{
     font-size: 0.8rem;
 }
 
-.bold{
-    font-weight: 800;
-}
+
 
 .buttons > *{
     background-color: #1992d4;
