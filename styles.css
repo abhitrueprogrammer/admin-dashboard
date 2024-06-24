@@ -179,6 +179,7 @@ a{
 .icon{
     width: 30px;
     height: 30px;
+    border-radius: 50%;
     display: inline;
 }
 .search-area{
@@ -270,6 +271,8 @@ main> * > *{
 .card{
     background-color: #fff;
     border-radius: 7px;
+    box-shadow: 1px 1px 6px 0px #D3D3D3;
+
 }
 /* .card-high{
 } */
@@ -336,6 +339,9 @@ main> * > *{
     align-items: center;
 }
 .trending-user .icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
  grid-row: 1/-1;
 }
 
