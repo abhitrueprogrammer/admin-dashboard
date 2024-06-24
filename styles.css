@@ -68,6 +68,11 @@ a{
     border: none;
     border-radius: 50px;
 }
+.search-icon{
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
 .icon{
     width: 30px;
     height: 30px;
@@ -92,7 +97,7 @@ a{
     justify-content: center;
 }
 .name{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .user-setting-dashboard > *{
     margin: 5px;
@@ -168,12 +173,28 @@ main> * > *{
 /* .card-high{
 } */
 .card-small{
-    height: 160px;
-
+    height: 190px;
+    padding: 30px 20px;
+    display: grid;
+    align-items: space-between;
+}
+.card-small h2{
+    font-size : 1.1rem;
+}
+.card-small p{
+    color: #757575;
+    font-size: 1rem;
 }
 .yellow-line{
     border-inline: solid #fcb71b 7px;
     border-inline-end: none;
+}
+.card-icons-area{
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    grid-auto-flow: column;
+    gap: 30px;
 }
 .announcement-area *:first-child{
     margin-top: 0;
@@ -182,7 +203,7 @@ main> * > *{
 .announcement-area{
     padding:30px;
     display: grid;
-    grid-template-rows: repeat(3, minmax(30px, 1fr)); 
+    /* grid-template-rows: repeat(3, minmax(30px, 1fr));  */
     /* word-wrap: break-word;
     overflow: hidden;
     text-overflow: ellipsis; */
@@ -195,17 +216,23 @@ main> * > *{
 .announcement-area p{
 
     font: Arial;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #757575;
     overflow: hidden;
     text-overflow: ellipsis;
 
 }
+.trending-area{
+    padding: 20px;
+    display: grid;
+    gap: 20px;
 
+}
 .trending-user{
     display: grid;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(2,auto);
+    align-items: center;
 }
 .trending-user .icon{
  grid-row: 1/-1;
@@ -215,3 +242,6 @@ main> * > *{
     grid-column: 2/3;
 }
 
+.user-tag{
+    color: #757575;
+}
