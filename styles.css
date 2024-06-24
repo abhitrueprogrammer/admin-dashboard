@@ -7,6 +7,7 @@
 h2{
     font-size: 1.3rem;
 }
+
 .branding h2{
     font-size: 1.7rem;
 }
@@ -33,23 +34,42 @@ header{
     background-color: #1992d4;
     color: #fff;
     display: grid;
-    grid-template-rows: 1fr 9fr;
+    grid-template-rows: auto 1fr;
     gap: 5px;
     align-items: start;
 }
 .sidebar > *{
-    margin: 20px;
+    margin: 0px 20px;
+}
+.branding{
+    margin-top: 10px;
 }
 nav{
     display: grid;
     grid-template-rows: 3fr 1fr;
     gap: 15px;
 }
+nav svg{
+
+    height: 20px;
+    width: 20px;
+}
+nav li{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+nav svg path{
+    fill: #fff;
+}
 nav li{
     
     margin-bottom: 10px;
 }
 nav ul{
+
     padding-left: 0;
 }
 nav ul:first-child{
